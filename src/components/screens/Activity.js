@@ -39,7 +39,6 @@ export default function Activity() {
                     post: data.posts,
                     followers: data.followers,
                     following: data.following,
-                    accountName: data.accountName
                   })
                 }
                 key={index}>

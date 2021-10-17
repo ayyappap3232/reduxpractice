@@ -46,7 +46,6 @@ export default function FriendProfile({route, navigation}) {
       </View>
       <ProfileBody
         name={name}
-        accountName={accountName}
         profileImage={profileImage}
         post={post}
         follow={follow}

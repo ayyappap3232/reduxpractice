@@ -12,6 +12,7 @@ import Activity from './src/components/screens/Activity'
 import Profile from './src/components/screens/Profile'
 import Status from './src/components/screenComponents/Status'
 import FriendProfile from './src/components/screenComponents/FriendProfile'
+import EditProfile from './src/components/screenComponents/EditProfile'
 
 export default function App() {
 
@@ -62,6 +63,7 @@ export default function App() {
         <Stack.Screen name="BottomTab" component={bottomTabScreen} />
         <Stack.Screen name="Status" component={Status} />
         <Stack.Screen name="FriendProfile" component={FriendProfile} />
+        <Stack.Screen name="EditProfile" component={EditProfile} />
       </Stack.Navigator>
     </NavigationContainer>
   )
